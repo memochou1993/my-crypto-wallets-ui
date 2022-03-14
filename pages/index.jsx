@@ -1,5 +1,12 @@
-import {AppBar, Box, IconButton, Toolbar, Typography} from "@mui/material"
-import MenuIcon from '@mui/icons-material/Menu'
+import React from 'react';
+import {
+  AppBar,
+  Box,
+  IconButton,
+  Toolbar,
+  Typography,
+} from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 
 export default function Home() {
   return (
@@ -29,5 +36,5 @@ export default function Home() {
         </Toolbar>
       </AppBar>
     </Box>
-  )
+  );
 }
